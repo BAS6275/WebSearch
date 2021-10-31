@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: mediumseagreen;
+    color: #fff;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-menu {
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+}
+.head-menu div p {
+    margin: 2rem;
+}
+.search {
+    margin-top: 20%
+}
+.search input {
+    width: 60%;
+    height:10%;
+    padding-left: 0.5rem;
+    border: 1px;
+    border-radius: 20px;
+}
+
+footer {
+    margin-top: 20%;
+}
+
+footer div {
+    margin: 1rem;
+}
