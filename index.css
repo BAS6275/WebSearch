@@ -1,40 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200&display=swap');
+* {
+  font-family: 'Mitr', sans-serif;
+}
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: mediumseagreen;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('https://wallpapercave.com/wp/wp3429758.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 }
-
 .flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-menu {
+  display: flex;
+  justify-content: space-around;
+  height: 3rem;
+  margin-top: 1rem;
+}
+.head-menu div span[type="button"] {
+  margin: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+	transition: 0.25s;
 }
 
-.head-menu {
-    display: flex;
-    justify-content: space-around;
-    height: 3rem;
-}
-.head-menu div p {
-    margin: 2rem;
+.head-menu div span[type="button"]:hover
+{
+  cursor: pointer;
+  background: #f7f7f77e;
+	width: 2.5rem;
+  height: 2.5rem;
+  /* opacity:0.6; */
 }
 .search {
-    margin-top: 20%
+  margin-top: 15%;
 }
 .search input {
-    width: 60%;
-    height:10%;
-    padding-left: 0.5rem;
-    border: 1px;
-    border-radius: 20px;
+  line-height: 2.5rem;
+  padding-left: 1rem;
+  width: 50%;
+  outline: none;
+  border: 1px;
+  border-radius: 20px;
 }
-
 footer {
-    margin-top: 20%;
+  margin-top: 20%;
 }
-
 footer div {
-    margin: 1rem;
+  margin: 1rem;
 }
