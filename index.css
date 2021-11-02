@@ -23,25 +23,23 @@ body {
   height: 3rem;
   margin-top: 1rem;
 }
-.head-menu div span[type="button"] {
+.head-menu div span[type='button'] {
   margin: 2rem;
   width: 2.5rem;
   height: 2.5rem;
-	transition: 0.25s;
+  transition: 0.25s;
 }
 
-.head-menu div span[type="button"]:hover
-{
+.head-menu div span[type='button']:hover {
   cursor: pointer;
   background: #f7f7f77e;
-	width: 2.5rem;
+  width: 2.5rem;
   height: 2.5rem;
 }
-.search span{
+.search span {
   margin-top: 10%;
   position: relative;
   width: 50%;
-
 }
 .search input {
   font-size: 18px;
@@ -64,19 +62,32 @@ body {
   color: #ffffffe0;
 }
 footer {
-  margin-top: 20%;
+  margin-top: 15%;
 }
-footer div {
+footer div.shortcut-menu {
   margin: 1rem;
 }
-.shortcut-menu {
+div.shortcut-menu {
   display: flex;
   flex-direction: column;
+  padding: 0.5rem 0rem;
   align-items: center;
   border: 1px solid #ffffff94;
-  width: 4rem;
+  border-radius: 5px;
+  width: 5rem;
   height: 4rem;
+  backdrop-filter: blur(2px);
+  transition: 0.25s;
+  cursor: pointer;
 }
-.card {
-  background: #ffffff94
+div.shortcut-menu:hover {
+  background: #f7f7f77e
+
+}
+span.card {
+  width: 2rem;
+  border: 1px solid #ffffff94;
+  border-radius: 5px;
+  background: #d6d6d6b2
+
 }
